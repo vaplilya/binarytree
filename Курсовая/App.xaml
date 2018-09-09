@@ -1,0 +1,66 @@
+﻿<Application x:Class="Курсовая.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Курсовая"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <ControlTemplate x:Shared="False"  x:Key="RoundButton" TargetType="{x:Type Button}">
+            <Grid x:Name="controlLayout" >
+                <Ellipse x:Name="buttonSurface" Fill="DeepPink"/>
+                <Label x:Name="buttonCaption" VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    FontWeight="Bold" FontSize="25" Content="Д" Foreground="White"/>
+            </Grid>
+
+        </ControlTemplate>
+        <ControlTemplate x:Key="Button2" x:Shared="False" TargetType="{x:Type Button}">
+            <Grid x:Name="controlLayout" >
+                <Ellipse x:Name="buttonSurface" Fill="DeepPink"/>
+                <Label x:Name="buttonCaption" VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    FontWeight="Bold" FontSize="25" Content="Н" Foreground="White"/>
+            </Grid>
+
+        </ControlTemplate>
+        <ControlTemplate x:Key="Button3" x:Shared="False" TargetType="{x:Type Button}">
+            <Grid x:Name="controlLayout" >
+                <Ellipse x:Name="buttonSurface" Fill="DeepPink"/>
+                <Label x:Name="buttonCaption" VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    FontWeight="Bold" FontSize="25" Content="У" Foreground="White"/>
+            </Grid>
+
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="Button4" x:Shared="False" TargetType="{x:Type Button}">
+            <Grid x:Name="controlLayout" >
+                <Ellipse x:Name="buttonSurface" Fill="DeepPink"/>
+                <Label x:Name="buttonCaption" VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    FontWeight="Bold" FontSize="25" Content="З" Foreground="White"/>
+            </Grid>
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="Button5" x:Shared="False" TargetType="{x:Type Button}">
+            <Grid x:Name="controlLayout" >
+                <Ellipse x:Name="buttonSurface" Fill="DeepPink"/>
+                <Label x:Name="buttonCaption" VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    FontWeight="Bold" FontSize="25" Content="О" Foreground="White"/>
+            </Grid>
+
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="Button" x:Shared="False" TargetType="{x:Type Button}">
+            <Grid x:Name="controlLayout" >
+                <Ellipse x:Name="buttonSurface" Fill="Orchid"/>
+                <Label x:Name="buttonCaption" VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    FontWeight="Bold" FontSize="15" Content="Help" Foreground="White"/>
+            </Grid>
+
+        </ControlTemplate>
+
+    </Application.Resources>
+</Application>

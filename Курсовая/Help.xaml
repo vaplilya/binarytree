@@ -1,0 +1,27 @@
+﻿<Window x:Class="Курсовая.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Курсовая"
+        mc:Ignorable="d"
+        Title="Help" Height="380" Width="500">
+    <Grid Background="White" >
+        <StackPanel>
+                <TextBlock Margin="10,20,0,10" FontSize="25" FontWeight="DemiBold" Foreground="Coral">Справка</TextBlock>
+            <Grid>
+                <Rectangle RadiusX="25" RadiusY="25" Width="440" Height="130" TextBlock.TextAlignment="Center" Fill= "LightSeaGreen">
+                </Rectangle>
+                <TextBlock  Margin="0,0,0,0" Height="110" Width="400" FontSize="15" Foreground="Bisque" TextWrapping="Wrap" >Для добавления, 
+                поиска или удаления узла введите значение и нажмите соответствующую команду. Для получения иформации о кнопке 
+            наведите на ее изображение. Всплывающее окно подскажет команду,которую выполняет эта кнопка.</TextBlock>
+            </Grid>
+            <Grid>
+                <Rectangle Margin="0,10,0,0" RadiusX="25" RadiusY="25" Width="440" Height="140" TextBlock.TextAlignment="Center"  Fill="PeachPuff"/>
+                <TextBlock  Margin="0,5,0,0" Height="120" Width="430" FontSize="15" TextWrapping="Wrap" FontWeight="DemiBold" Foreground="LightSeaGreen">Бинарные деревья работают по принципу
+            "узел с большим значением добавляется в правое подерево, с меньшим или равным- в левое". При удалении узла с одним потомком этот узел
+            заменяется на своего потомка. Узел с двумя потомками заменяется на наименьший элемент в правом поддереве.</TextBlock>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>
